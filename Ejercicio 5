@@ -1,0 +1,7 @@
+def invertir_palabra(palabra):
+    return palabra[::-1]
+
+texto = input("Ingresa una palabra: ")
+resultado = invertir_palabra(texto)
+
+print("Palabra invertida:", resultado)
